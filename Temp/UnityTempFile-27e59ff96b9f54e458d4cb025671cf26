@@ -71,7 +71,6 @@
 'Assets/Scripts/Graph.cs'
 'Assets/Scripts/Node.cs'
 'Assets/Scripts/Search.cs'
-'Assets/Scripts/Serch.cs'
-'Assets/pathfindingTest.cs'
+'Assets/Scripts/pathfindingTest.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'
