@@ -62,7 +62,7 @@ public class Search {
 	}
 
 	public void AddAdjacent(Node node, Node adjacent){
-		if FindNode(adjacent, explored) || FindNode(adjacent, reachable)){
+		if (FindNode (adjacent, explored) || FindNode (adjacent, reachable)) {
 			return;
 		}
 
@@ -70,17 +70,18 @@ public class Search {
 		reachable.Add (adjacent);
 	}
 
-	public bool FindNode(Node Node, List<Node> list){
-		return false;
-
+	public bool FindNode(Node node, List<Node> list){
+		return GetNodeIndex(node, list) >= 0;
 	}
 
-	public int GetNodeIndex(Node node, List<node> list){
-		for (var i = 0; i <list.Count; i++){
-			if( node == list[i]){
+	public int GetNodeIndex(Node node, List<Node> list){
+		for (var i = 0; i < list.Count; i++) {
+			if(node == list[i]){
 				return i;
 			}
 		}
+
+		return -1;
 	}
 
 	public Node ChoseNode(){
