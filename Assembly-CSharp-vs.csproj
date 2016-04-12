@@ -48,8 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Graph.cs" />
      <Compile Include="Assets\Scripts\Node.cs" />
+     <Compile Include="Assets\Scripts\PathfindingTest.cs" />
      <Compile Include="Assets\Scripts\Search.cs" />
-     <Compile Include="Assets\Scripts\pathfindingTest.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
